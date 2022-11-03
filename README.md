@@ -1,6 +1,6 @@
 # spring-boot-observability
 
-![5w1h](https://safetyculture.com/topics/5w1h/)
+[5w1h](https://safetyculture.com/topics/5w1h/)
 # Um guia abrangente para o método 5W1H
 Este guia discutirá o método 5W1H: sua definição, origem e elementos. Aprenda como integrá-lo em suas práticas de negócios com um guia passo a passo.
 
@@ -78,20 +78,29 @@ Para fechar e importante ter clareza sobre o nivel de log, que no final ficamos 
 4. Trace
 
 ### Software Application Logging Aspects to Consider by Implementing Knowledge Management (Article)
-![article](https://www.researchgate.net/publication/308568380_Software_Application_Logging_Aspects_to_Consider_by_Implementing_Knowledge_Management)
+[article](https://www.researchgate.net/publication/308568380_Software_Application_Logging_Aspects_to_Consider_by_Implementing_Knowledge_Management)
 
-II. LOGGING ASPECTS A “log” is defined as a record of performance, events, or day-to-day activities by Meriam-Webster Dictionary [15] 
-and as a regular or systematic record of incidents or observations by Oxford Dictionary [16]. 
+II. LOGGING ASPECTS A “log” is defined as a record of performance, events, or day-to-day activities by Meriam-Webster Dictionary
+
+and as a regular or systematic record of incidents or observations by Oxford Dictionary.
+
 This definitions are in compliance with the application logging that is used today in software development and maintenance 
-where applications often need to log various messages representing conditions or events [10].  
+where applications often need to log various messages representing conditions or events.
+
 A log record is designed to help to analyze malfunctioning of the application’s behavior and to identify the part of application 
-source code that leads to such an undesired behavior. Log files, originally meant for debugging purposes [11], 
+source code that leads to such an undesired behavior. Log files, originally meant for debugging purposes, 
 may help to investigate what happened and how did it happen even without the repeated application starting if these logs include all 
-needed information in their log entries. However, this is often not true, unfortunately. In the practice logs are often missing and omit critical 
-details [11] or in a lot of cases, application developers do not log much [17]. Therefore, it is important to include logging in the design of 
-software applications.  When including logging in the software application development, it is important to decide upon what to log and how to log. 
-The best logs tell you exactly what happened, when, where, and how [11]. 
-Every log entry should, if possible, log what happened, when it happened, who triggered the event, and why it happened [17]. 
+needed information in their log entries. However, this is often not true, unfortunately. 
+
+In the practice logs are often missing and omit critical details or in a lot of cases, application developers do not log much. 
+Therefore, it is important to include logging in the design of software applications.  
+
+When including logging in the software application development, it is important to decide upon what to log and how to log. 
+
+The best logs tell you exactly what happened, when, where, and how. 
+
+Every log entry should, if possible, log what happened, when it happened, who triggered the event, and why it happened. 
+
 Resulting from these guidelines, a log entry should if possible always answer following questions: 
 
 1. What did happen?  
