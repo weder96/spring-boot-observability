@@ -23,9 +23,24 @@
         </encoder>
     </appender>
 
+    <SplunkHttp
+            name="splunkhttp"
+            url="http://localhost:8088"
+            token="91d5cb17-a45e-4c67-842d-830842d08bd9"
+            host="localhost"
+            index="order_api_dev"
+            type="raw"
+            source="http-event-logs"
+            sourcetype="log4j"
+            messageFormat="text"
+            disableCertificateValidation="true">
+        <PatternLayout pattern="%m" />
+    </SplunkHttp>
+
     <root level="info">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="TIME_BASED_FILE"/>
+        <appender-ref ref="splunkhttp" />
     </root>
 
 </configuration>
