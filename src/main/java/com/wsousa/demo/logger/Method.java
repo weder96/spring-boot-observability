@@ -15,11 +15,9 @@ import java.util.Map;
 @Getter
 @Setter
 public class Method {
-
     public Method(String methodText){
         this.methodText = methodText;
     }
-
     private String clazz;
     private String methodText;
     protected static WhatIsHappening whatIsHappening;
